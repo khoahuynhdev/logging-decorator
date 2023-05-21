@@ -1,0 +1,21 @@
+
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "target": "esnext",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "incremental": true,
+    "strict": false,
+    "esModuleInterop": true,
+    "noEmit": false,
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules", "dist", "test"]
+}
+
